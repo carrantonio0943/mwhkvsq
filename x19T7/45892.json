@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：golang 项目 go mod 依赖管理
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：3g.easytek.cn/Article/details/23658096.shtml
+
+原标题：调优方案：Docker容器内核参数性能调优
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：3g.easytek.cn/Article/details/04646576.shtml
+
+原标题：Hands‑on：简易验证码生成校验后端实践
+简介：项目构建脚本编译打包解析，解读项目构建脚本，理清编译、压缩、资源复制流程，理解打包后产物如何生成。
+ | 原文链接：3g.easytek.cn/Article/details/66957868.shtml
+
+原标题：正则表达式优化 CPU 占满问题
+简介：单元测试用例编写入门实操，讲解测试用例设计思路，演示基础单元测试代码，提升代码健壮性，提前发现逻辑 bug。
+ | 原文链接：3g.easytek.cn/Article/details/96702581.shtml
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：3g.easytek.cn/Article/details/59368146.shtml
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：3g.easytek.cn/Article/details/49368058.shtml
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：数值类型溢出错乱问题修复，选择合适数值存储类型，处理数值溢出，避免数据存储错乱结果异常。
+ | 原文链接：3g.easytek.cn/Article/details/63478148.shtml
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：任务执行锁防止并发重复调度，增加任务执行锁，多实例环境，防止同一个定时任务并发多次运行。
+ | 原文链接：3g.easytek.cn/Article/details/60424703.shtml
+
+原标题：golang mysql 慢查询日志开启分析
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：3g.easytek.cn/Article/details/93803669.shtml
+
+原标题：开发代理服务网络限制解决
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：3g.easytek.cn/Article/details/87913793.shtml
+
+原标题：入门实践：简单批量处理脚本编写
+简介：golang k8s go 服务 yaml 资源编写，k8s 部署 go 应用 deployment service，健康检查资源限制配置。
+ | 原文链接：3g.easytek.cn/Article/details/71560368.shtml
+
+原标题：golang 系统设计消息幂等消费去重实现方案
+简介：golang 路径处理 filepath 包规范写法，使用 filepath 处理路径拼接分割，自动适配操作系统路径分隔符。
+ | 原文链接：3g.easytek.cn/Article/details/30136927.shtml
+
+原标题：零基础理解数据库事务基础ACID概念
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：3g.easytek.cn/Article/details/37145803.shtml
+
+原标题：golang 系统设计 docker compose 本地开发环境搭建
+简介：golang 命令行交互 cobra 开发 cli，cobra 库开发功能完善命令行工具，子命令参数标志解析。
+ | 原文链接：3g.easytek.cn/Article/details/48335925.shtml
+
+原标题：golang 链路追踪简易实现方案
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：3g.easytek.cn/Article/details/52357058.shtml
+
+原标题：axios 二次封装请求拦截处理
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：3g.easytek.cn/Article/details/60579224.shtml
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：3g.easytek.cn/Article/details/93702579.shtml
+
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：golang gorm ORM 数据库操作，GORM 实操数据库 CRUD，模型定义，关联查询，简化 Go 数据库开发。
+ | 原文链接：3g.easytek.cn/Article/details/72812247.shtml
+
+原标题：效率笔记：VSCode插件集合后端前端开发效率
+简介：golang go http 服务器优雅关闭完整代码，http.Server Shutdown，等待现有请求处理完成关闭服务。
+ | 原文链接：3g.easytek.cn/Article/details/82612579.shtml
+
+原标题：golang grpc protobuf 开发实操
+简介：golang atomic.Value 存储任意类型数据，atomic.Value 安全存储读取任意类型，配置热更新常用。
+ | 原文链接：3g.easytek.cn/Article/details/50156936.shtml
+
+原标题：Practice：实现请求大小限制中间件防护大报文
+简介：golang 表单文件大小限制配置，限制表单上传文件最大体积，拦截超大文件上传请求，保护服务。
+ | 原文链接：3g.easytek.cn/Article/details/63489257.shtml
+
+原标题：坑点：依赖缓存未更新，旧代码持续运行
+简介：golang ctx 关闭之后资源释放，context 取消后，监听 Done ()，释放 goroutine 网络 IO 资源。
+ | 原文链接：3g.easytek.cn/Article/details/51246803.shtml
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：3g.easytek.cn/Article/details/08915813.shtml
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：数据库分表路由写入分片修正，修复分表路由逻辑，保证数据写入正确分片，不会出现数据丢失错乱。
+ | 原文链接：3g.easytek.cn/Article/details/37890032.shtml
+
+原标题：部署实践：告警收敛避免告警风暴配置
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：3g.easytek.cn/Article/details/68180810.shtml
+
+原标题：新手向：看懂项目README的正确阅读姿势
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：3g.easytek.cn/Article/details/79022255.shtml
+
+原标题：零基础理解跨域问题产生原因与基础方案
+简介：golang 大文件读取内存优化，Go 流式读取大文件，分块处理，避免大文件一次性加载全部到内存。
+ | 原文链接：3g.easytek.cn/Article/details/25677698.shtml
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang go 终端 pty 伪终端操作，pty 启动子进程，模拟终端交互，实现交互式命令调用。
+ | 原文链接：3g.easytek.cn/Article/details/60023355.shtml
+
+原标题：golang 优雅处理数据库事务
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：3g.easytek.cn/Article/details/37967689.shtml
+
+原标题：golang docker 镜像构建最佳实践
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：3g.easytek.cn/Article/details/51658147.shtml
+
+原标题：后端登录鉴权模块完整开发
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：3g.easytek.cn/Article/details/60579255.shtml
+
+原标题：布隆过滤器误判问题修正
+简介：前端虚拟列表大数据渲染优化，实现虚拟滚动列表，只渲染可视区域 DOM，上万条数据页面流畅渲染。
+ | 原文链接：3g.easytek.cn/Article/details/04914702.shtml
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：3g.easytek.cn/Article/details/72692470.shtml
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：3g.easytek.cn/Article/details/95026922.shtml
+
+原标题：调优方案：MySQL缓冲池参数性能调优实践
+简介：golang 结构体零值可用性原则，go 结构体尽量做到零值可用，不用初始化直接使用提升易用性。
+ | 原文链接：3g.easytek.cn/Article/details/48236025.shtml
+
+原标题：OpenSource：开源项目风险评估依赖安全检查
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：3g.easytek.cn/Article/details/46235813.shtml
+
+原标题：部署实践：内网开发环境代理配置实践
+简介：golang io.Copy 流式拷贝数据，io.Copy 拷贝 reader 到 writer，不用加载全部数据到内存。
+ | 原文链接：3g.easytek.cn/Article/details/59368815.shtml
+
+原标题：架构复盘：多实例部署业务状态无状态改造
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：3g.easytek.cn/Article/details/15024380.shtml
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：API 接口调试与异常处理实战，覆盖接口请求、参数组装、错误捕获，提供调试思路，高效定位接口返回异常问题。
+ | 原文链接：3g.easytek.cn/Article/details/50358143.shtml
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：3g.easytek.cn/Article/details/63370358.shtml
+
+
+二、踩坑排错｜Troubleshooting
+原标题：复盘总结：技术方案文档模板架构设计文档
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：3g.easytek.cn/Article/details/03791358.shtml
+
+原标题：golang 系统设计 issue 模板 bug 反馈模板
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：3g.easytek.cn/Article/details/82792582.shtml
+
+原标题：新手教程：Gittag版本标签打标签实操
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：3g.easytek.cn/Article/details/95025822.shtml
+
+原标题：golang gorm ORM 数据库操作
+简介：批量数据处理脚本编写技巧，编写脚本批量处理大量业务数据，循环处理、分批执行，提升数据处理效率。
+ | 原文链接：3g.easytek.cn/Article/details/16246914.shtml
+
+原标题：golang etcd 分布式锁实现原理
+简介：golang 程序崩溃 core dump 生成调试，开启 core dump，程序崩溃生成转储文件，事后分析崩溃原因。
+ | 原文链接：3g.easytek.cn/Article/details/75681470.shtml
+
+原标题：零基础理解版本控制核心概念与工作流
+简介：多线程线程安全脏数据规避，梳理多线程共享变量，做好同步控制，避免并发修改产生脏数据。
+ | 原文链接：3g.easytek.cn/Article/details/18027136.shtml
+
+原标题：磁盘占满服务不可用清理方案
+简介：分布式 ID 生成器高并发实现，实现高性能分布式 ID 生成器，适配高并发业务，生成全局唯一 ID。
+ | 原文链接：3g.easytek.cn/Article/details/27937705.shtml
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：3g.easytek.cn/Article/details/82792471.shtml
+
+原标题：nodejs 集群模式多核利用实现
+简介：ICMP 放通网络丢包问题修复，放开 ICMP 协议，解决 MTU 问题导致网络丢包，修复网络不稳定现象。
+ | 原文链接：3g.easytek.cn/Article/details/81592590.shtml
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：TCP 心跳检测清理僵死连接，开启 TCP 心跳机制，自动清理僵死无效连接，释放连接资源。
+ | 原文链接：3g.easytek.cn/Article/details/63369369.shtml
+
+原标题：调优方案：Nginx性能参数调优高并发配置
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：3g.easytek.cn/Article/details/59368035.shtml
+
+原标题：golang 系统设计 rest http 方法使用原则
+简介：RPC 报文大小上限调优大请求，调大 RPC 框架报文最大限制，支持传输大体积请求报文不被截断。
+ | 原文链接：3g.easytek.cn/Article/details/50357947.shtml
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：golang go url url.Values 参数编码，url.Values 构建 url 查询参数，自动处理参数 url 编码。
+ | 原文链接：3g.easytek.cn/Article/details/72681247.shtml
+
+原标题：排错：前端sourcemap错误线上无法定位报错
+简介：Docker 容器时区错误修复方案，修复 Docker 容器内部时区偏差，解决容器内时间不对引发业务逻辑异常。
+ | 原文链接：3g.easytek.cn/Article/details/72681361.shtml
+
+原标题：部署实践：HTTPS证书自动续期配置实践
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：3g.easytek.cn/Article/details/16137014.shtml
+
+原标题：Debug：静态资源缓存策略错误，用户看不到更新
+简介：golang io.MultiReader MultiWriter 拼接流，多个 reader 拼接，多 writer 同时写入一份数据。
+ | 原文链接：3g.easytek.cn/Article/details/48268147.shtml
+
+原标题：golang rate‑limiter 限流组件
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：3g.easytek.cn/Article/details/30247136.shtml
+
+原标题：API 接口调试与异常处理实战
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：3g.easytek.cn/Article/details/54691471.shtml
+
+原标题：golang 系统设计告警升级通知策略配置思路
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：3g.easytek.cn/Article/details/37572479.shtml
+
+原标题：无用对象回收抑制内存上涨
+简介：echarts 大数据渲染性能调优，大数据量 ECharts 图表调优，数据采样、分片渲染，解决图表卡顿。
+ | 原文链接：3g.easytek.cn/Article/details/47138036.shtml
+
+原标题：从零搭建简单CLI命令行工具
+简介：Git 代码冲突正确处理方式，讲解冲突产生场景，演示冲突文件修改，正确合并代码，防止代码丢失。
+ | 原文链接：3g.easytek.cn/Article/details/04915801.shtml
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：3g.easytek.cn/Article/details/15014691.shtml
+
+原标题：golang 系统设计接口不兼容平滑迁移方案
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：3g.easytek.cn/Article/details/28125692.shtml
+
+原标题：golang kafka 消费者组原理讲解
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：3g.easytek.cn/Article/details/27236946.shtml
+
+原标题：新手教程：本地环境变量配置全流程
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：3g.easytek.cn/Article/details/87118967.shtml
+
+原标题：golang 系统设计接口防刷 ip 限流实现
+简介：数值 key 浮点匹配异常规避，避免浮点数作为 Redis 等存储的 key，防止精度问题引发 key 匹配失败。
+ | 原文链接：3g.easytek.cn/Article/details/11413324.shtml
+
+原标题：实战：GraphQL服务搭建与CRUD实操
+简介：golang fasthttp 服务开发完整示例，fasthttp 搭建 http 服务，路由、参数读取、响应返回完整业务。
+ | 原文链接：3g.easytek.cn/Article/details/65885335.shtml
+
+原标题：方案对比：同步调用vs异步消息业务选型
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：3g.easytek.cn/Article/details/75682491.shtml
+
+原标题：入门实践：简单的请求封装与异常捕获
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：3g.easytek.cn/Article/details/65290018.shtml
+
+原标题：复盘总结：技术选型对比文档模板实践
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：3g.easytek.cn/Article/details/98190786.shtml
+
+原标题：方案对比：几种任务队列架构选型优缺点
+简介：golang tls 证书加载配置 https 服务，加载证书密钥，搭建 golang https 服务，配置 tls 版本安全策略。
+ | 原文链接：3g.easytek.cn/Article/details/65768967.shtml
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：前端静态缓存更新生效处理，修改静态资源版本标识，处理浏览器强缓存，让更新资源生效。
+ | 原文链接：3g.easytek.cn/Article/details/05910372.shtml
+
+原标题：实践：数据库备份脚本自动化编写实践
+简介：nodejs 接口限流防刷代码实现，Node 层实现接口限流，限制 IP 访问频次，防护接口被恶意高频调用。
+ | 原文链接：3g.easytek.cn/Article/details/04892479.shtml
+
+原标题：实战：多版本SDK兼容业务改造实践
+简介：golang trace 工具采集 go 程序执行轨迹，go trace 采集程序完整调度轨迹，分析协程调度阻塞问题。
+ | 原文链接：3g.easytek.cn/Article/details/18279472.shtml
+
+原标题：golang k8s 本地 minikube 调试应用
+简介：限流组件计数器令牌桶模式实现，实现计数器、令牌桶两种限流算法，封装可复用限流组件。
+ | 原文链接：3g.easytek.cn/Article/details/62727369.shtml
+
+原标题：开源实践：开源项目本地调试构建排坑经验
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：3g.easytek.cn/Article/details/10462503.shtml
+
+原标题：踩坑记录：浮点精度错误造成业务计算错误
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：3g.easytek.cn/Article/details/30503914.shtml
+
+原标题：golang 系统设计代码安全审计简单思路
+简介：golang 正则表达式 Go 实操案例，正则匹配提取替换，处理手机号邮箱校验，规避正则回溯 CPU 暴涨。
+ | 原文链接：3g.easytek.cn/Article/details/96281703.shtml
+
+原标题：golang k8s 持久化 pv pvc 使用实操
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：3g.easytek.cn/Article/details/48584624.shtml
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：文件句柄上限调整上传随机失败，调高系统文件句柄上限，解决高并发上传场景随机打开文件失败。
+ | 原文链接：3g.easytek.cn/Article/details/97181463.shtml
+
+三、实战开发｜Practice
+原标题：golang 系统设计异步化改造业务流程思路
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：3g.easytek.cn/Article/details/74784817.shtml
+
+原标题：golang 系统设计内网外网服务隔离方案
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：3g.easytek.cn/Article/details/96241403.shtml
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：3g.easytek.cn/Article/details/08281703.shtml
+
+原标题：Hands‑on：简易配置中心本地原型实现
+简介：JWT 令牌过期异常处理，捕获 JWT 过期、篡改异常，编写业务处理逻辑，引导用户重新获取令牌。
+ | 原文链接：3g.easytek.cn/Article/details/60825147.shtml
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：golang mock 单元测试编写技巧，单元测试 mock 外部依赖，隔离数据库网络，只测试业务逻辑本身。
+ | 原文链接：3g.easytek.cn/Article/details/38270252.shtml
+
+原标题：golang 系统设计告警风暴抑制合并降噪方案
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：3g.easytek.cn/Article/details/18282918.shtml
+
+原标题：golang 系统设计定时任务失败重试告警实现
+简介：golang 定时任务任务持久化存储，定时任务持久化到数据库，服务重启任务不丢失，动态管理任务。
+ | 原文链接：3g.easytek.cn/Article/details/19381715.shtml
+
+原标题：golang 单例模式实现几种方式
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：3g.easytek.cn/Article/details/96059693.shtml
+
+原标题：Nginx 透传真实客户端 IP 配置
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：3g.easytek.cn/Article/details/07161585.shtml
+
+原标题：golang mysql 防止 sql 注入实践
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：3g.easytek.cn/Article/details/29725847.shtml
+
+原标题：golang k8s ingress‑nginx 配置 ssl 证书
+简介：数据库主从延迟业务兼容处理，业务适配主从复制延迟，避免读取从库拿到还未同步完成旧数据。
+ | 原文链接：3g.easytek.cn/Article/details/85936251.shtml
+
+原标题：部署复盘：蓝绿发布实现零停机业务更新
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：3g.easytek.cn/Article/details/52602714.shtml
+
+原标题：实战：搭建日志收集分析简易完整演示环境
+简介：golang tcp keepalive 参数程序配置，go 程序设置 tcp keepalive，操作系统 tcp 保活参数，清理僵死连接。
+ | 原文链接：3g.easytek.cn/Article/details/51837360.shtml
+
+原标题：golang 系统设计 rest 资源命名规范汇总
+简介：golang grpc 负载均衡客户端实现，grpc 客户端负载均衡，轮询随机权重，分发请求到多个服务实例。
+ | 原文链接：3g.easytek.cn/Article/details/41504026.shtml
+
+原标题：golang redis pipeline 批量操作
+简介：分布式事务最终一致性实现，基于可靠消息实现最终一致性，解决跨数据库跨服务业务数据一致性。
+ | 原文链接：3g.easytek.cn/Article/details/74836369.shtml
+
+原标题：Security：接口鉴权越权漏洞检测与修复
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：3g.easytek.cn/Article/details/26452415.shtml
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：前端防抖节流高频事件处理，封装防抖节流工具，处理滚动、输入框输入等高频触发事件减少执行次数。
+ | 原文链接：3g.easytek.cn/Article/details/65839253.shtml
+
+原标题：nodejs 集群模式多核利用实现
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：3g.easytek.cn/Article/details/75947059.shtml
+
+原标题：架构笔记：多数据源架构设计事务处理难点
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：3g.easytek.cn/Article/details/85928181.shtml
+
+原标题：新手指南：项目本地编译输出产物解析
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：3g.easytek.cn/Article/details/73029253.shtml
+
+原标题：实战项目：Nginx限速、限流、防爬虫配置实践
+简介：特殊输入字符过滤解析防护，过滤用户输入特殊字符，防止解析报错，规避恶意字符带来业务异常。
+ | 原文链接：3g.easytek.cn/Article/details/52684919.shtml
+
+原标题：golang 系统设计大流量削峰处理方案
+简介：前后端交互跨域问题完整处理，讲解跨域产生原理，列举多种解决方案，适配开发、生产不同环境的跨域处理。
+ | 原文链接：3g.easytek.cn/Article/details/75906930.shtml
+
+原标题：golang 系统设计网关 ssl 证书配置更新实操
+简介：golang uuid 生成多种版本实现，生成 uuid v1 v4，生成唯一标识，业务用于单据编号场景。
+ | 原文链接：3g.easytek.cn/Article/details/07169696.shtml
+
+原标题：Git commit 钩子提交规范校验
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：3g.easytek.cn/Article/details/75059572.shtml
+
+原标题：跨平台 uniapp 多端开发实操
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：3g.easytek.cn/Article/details/64836951.shtml
+
+原标题：golang 接口返回统一封装工具
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：3g.easytek.cn/Article/details/85947171.shtml
+
+原标题：golang redis 大 key 识别处理方案
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：3g.easytek.cn/Article/details/63736152.shtml
+
+原标题：实战项目：容器健康探针配置完整实践示例
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：3g.easytek.cn/Article/details/53747248.shtml
+
+原标题：Git 子模块更新代码不全修复
+简介：golang oss 签名 URL 临时访问，生成 oss 临时签名 url，限时访问私有文件，保障文件访问安全可控。
+ | 原文链接：3g.easytek.cn/Article/details/71906971.shtml
+
+原标题：游标分页大数据查询性能提升
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：3g.easytek.cn/Article/details/41513929.shtml
+
+原标题：入门实战：搭建简易静态网页项目
+简介：golang pdf 生成 go 服务端生成 pdf，服务端动态生成 pdf 报表文件，直接输出下载给到前端。
+ | 原文链接：3g.easytek.cn/Article/details/74917171.shtml
+
+原标题：golang 熔断降级简易组件开发
+简介：gitignore 文件编写过滤规则，讲解 gitignore 语法，编写过滤配置，忽略缓存、编译产物、密钥文件，保持仓库整洁。
+ | 原文链接：3g.easytek.cn/Article/details/28280393.shtml
+
+原标题：数据库分表路由写入分片修正
+简介：开源源码阅读拆解学习思路，分享阅读大型开源项目方法，从入口文件逐层拆解模块，降低源码学习门槛。
+ | 原文链接：3g.easytek.cn/Article/details/58574698.shtml
+
+原标题：golang 系统设计 websocket 协议原理梳理
+简介：大事务拆分回滚日志暴涨解决，拆分大型数据库事务，减少回滚日志生成量，避免磁盘被回滚日志占满。
+ | 原文链接：3g.easytek.cn/Article/details/69684639.shtml
+
+原标题：零基础理解依赖管理与包管理器
+简介：golang go 信号处理优雅重启实现，USR2 触发程序重启，不关闭监听 socket 实现零停机升级。
+ | 原文链接：3g.easytek.cn/Article/details/30595810.shtml
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：3g.easytek.cn/Article/details/18240426.shtml
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：3g.easytek.cn/Article/details/94892550.shtml
+
+原标题：调优方案：容器CPU内存参数压测后调优
+简介：golang 优雅处理 http 超时设置，Go HTTP 请求设置各类超时，防止请求无限阻塞，保护协程与连接。
+ | 原文链接：3g.easytek.cn/Article/details/98119025.shtml
+
+原标题：golang redis 过期 key 监听业务
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：3g.easytek.cn/Article/details/10513313.shtml
+
+原标题：golang mysql 防止 sql 注入实践
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：3g.easytek.cn/Article/details/75996850.shtml
+
+四、架构设计｜Architecture
+原标题：架构笔记：数据脱敏架构接入层与存储层方案
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：3g.easytek.cn/Article/details/60915714.shtml
+
+原标题：容器资源限制防止宿主机过载
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：3g.easytek.cn/Article/details/60003547.shtml
+
+原标题：golang 系统设计故障预案编写模板参考示例
+简介：WSL 文件权限访问异常修复，处理 WSL 环境文件权限错乱，调整权限配置，实现文件正常读写访问。
+ | 原文链接：3g.easytek.cn/Article/details/61570469.shtml
+
+原标题：方案设计：高可用Redis集群架构选型对比
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：3g.easytek.cn/Article/details/71670924.shtml
+
+原标题：Troubleshooting：K8sPodOOMKilled完整排查流程
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：3g.easytek.cn/Article/details/30346781.shtml
+
+原标题：golang redis 锁超时业务处理
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：3g.easytek.cn/Article/details/71689925.shtml
+
+原标题：快速上手调试工具定位简单代码错误
+简介：nodejs 流处理大文件不占内存，使用 Node.js 流处理超大文件，边读边写，不需要全部加载进内存。
+ | 原文链接：3g.easytek.cn/Article/details/93571360.shtml
+
+原标题：golang 系统设计分布式配置中心思路
+简介：CPU 亲和性配置负载均衡调度，配置进程 CPU 亲和，均衡利用多核 CPU，优化程序调度性能。
+ | 原文链接：3g.easytek.cn/Article/details/60350335.shtml
+
+原标题：golang etcd 租约 lease 过期机制
+简介：多环境配置中心灵活切换方案，简易配置中心实现，支持多套环境配置，动态下发无需重启服务。
+ | 原文链接：3g.easytek.cn/Article/details/50359179.shtml
+
+原标题：效率笔记：终端开发工具提升日常调试效率
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：3g.easytek.cn/Article/details/04802036.shtml
+
+原标题：记一次第三方SDK版本兼容引发线上故障
+简介：死信队列处理消息阻塞业务，配置死信队列，处理消费失败消息，避免失败消息阻塞整个队列业务。
+ | 原文链接：3g.easytek.cn/Article/details/15860249.shtml
+
+原标题：数据库索引重建提升查询速度
+简介：golang http client Transport 参数调优，Transport 最大连接空闲连接，TLS 配置，http 客户端调优。
+ | 原文链接：3g.easytek.cn/Article/details/29389292.shtml
+
+原标题：提交第一个开源 PR 完整流程
+简介：golang http client 连接池调优，调优 Go HTTP Client 连接池参数，复用 TCP 连接，减少连接创建开销。
+ | 原文链接：3g.easytek.cn/Article/details/71907835.shtml
+
+原标题：golang 系统设计 gob msgpack 序列化对比
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：3g.easytek.cn/Article/details/18269681.shtml
+
+原标题：golang prometheus 指标暴露实现
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：3g.easytek.cn/Article/details/41794817.shtml
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：3g.easytek.cn/Article/details/52684728.shtml
+
+原标题：golang 系统设计分库分表 id 全局生成策略
+简介：golang go 时间 time.Timer time.Ticker，定时器与周期定时器，Stop Reset 正确使用，防止资源泄漏。
+ | 原文链接：3g.easytek.cn/Article/details/07138473.shtml
+
+原标题：golang redis 过期策略内存淘汰
+简介：golang redis 过期键监听回调，监听 key 过期事件，过期触发业务逻辑，实现过期自动处理业务场景。
+ | 原文链接：3g.easytek.cn/Article/details/74928147.shtml
+
+?
