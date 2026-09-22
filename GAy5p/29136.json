@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：架构笔记：事件驱动架构适用场景与坑点
+简介：golang 错误处理最佳实践汇总，Go 错误处理规范，包装错误，堆栈携带，拒绝简单忽略错误。
+ | 原文链接：http://book.ptutpt.asia/blog/0780460.sHtMl
+
+原标题：避坑：请求未设置read超时无限挂起连接
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://book.ptutpt.asia/blog/3794460.sHtMl
+
+原标题：golang 系统设计主干开发 trunk‑based 讲解
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://book.ptutpt.asia/blog/2962402.sHtMl
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：golang 单元测试 table‑driven，表格驱动单元测试写法，批量输入多组测试用例，简化单元测试代码。
+ | 原文链接：http://book.ptutpt.asia/blog/4587547.sHtMl
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：Cookie Session 会话状态管理，讲解 Cookie 与 Session 原理，理解登录状态保存，实现服务端会话管理逻辑。
+ | 原文链接：http://book.ptutpt.asia/blog/2144080.sHtMl
+
+原标题：golang 开发环境快速搭建指南
+简介：golang redis list 队列简易消息队列，利用 Redis List 实现简易队列，完成任务入队消费基础能力。
+ | 原文链接：http://book.ptutpt.asia/blog/2675644.sHtMl
+
+原标题：架构复盘：数据库索引架构设计原则与边界
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://book.ptutpt.asia/blog/2487981.sHtMl
+
+原标题：golang net/http 超时全套配置
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.ptutpt.asia/blog/1567899.sHtMl
+
+原标题：CLI 批量处理工具文件操作开发
+简介：golang go ring 环形容器循环队列，ring 环形链表实现循环队列，环形缓冲区业务场景。
+ | 原文链接：http://book.ptutpt.asia/blog/2935369.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang rsa 签名验签 pem 证书加载，加载 pem 格式密钥证书，rsa 签名与验签完整业务实现。
+ | 原文链接：http://book.ptutpt.asia/blog/1568654.sHtMl
+
+原标题：项目实践：幂等表实现接口幂等业务实践
+简介：golang json 自定义 MarshalJSON UnmarshalJSON，自定义 json 序列化反序列化逻辑，处理特殊格式字段。
+ | 原文链接：http://book.ptutpt.asia/blog/1872377.sHtMl
+
+原标题：monorepo 项目多包管理最佳实践
+简介：golang 后端节点健康检查机制实现，定时探测后端节点状态，自动剔除故障节点，保障转发可用。
+ | 原文链接：http://book.ptutpt.asia/blog/4168364.sHtMl
+
+原标题：golang mongodb 分页性能优化技巧
+简介：golang json 解析未知动态 json 结构，解析到 map [string] any 处理未知 json，动态读取字段。
+ | 原文链接：http://book.ptutpt.asia/blog/1572479.sHtMl
+
+原标题：golang mysql 分表自增 id 方案
+简介：golang net.Conn 包装自定义连接，包装 net.Conn，统计读写字节，日志打印，超时控制。
+ | 原文链接：http://book.ptutpt.asia/blog/7450237.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：Git 标签版本标记发布管理，使用 Git 标签标记项目版本，打标签推送远程，用于版本发布、版本回溯。
+ | 原文链接：http://book.ptutpt.asia/blog/0524690.sHtMl
+
+原标题：golang docker compose 环境变量
+简介：golang nacos go 客户端配置服务发现，nacos‑go 对接 nacos，配置管理、微服务注册发现。
+ | 原文链接：http://book.ptutpt.asia/blog/9389149.sHtMl
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：golang CPU 绑定亲和性设置 go 程序，设置进程 CPU 亲和绑定核心，减少 CPU 调度开销，提升计算性能。
+ | 原文链接：http://book.ptutpt.asia/blog/7913966.sHtMl
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://book.ptutpt.asia/blog/6709002.sHtMl
+
+原标题：Troubleshooting：Redis大key引发集群卡顿
+简介：数据库排序规则统一结果一致，统一数据库表排序规则，解决不同环境查询排序结果不一致问题。
+ | 原文链接：http://book.ptutpt.asia/blog/5933681.sHtMl
+
+原标题：踩坑：分布式事务状态不一致数据两边不一致
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://book.ptutpt.asia/blog/0716040.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：Git 混乱提交历史清理方法，针对杂乱的提交记录，使用 Git 工具整理，清理无效提交，还原整洁版本历史。
+ | 原文链接：http://book.ptutpt.asia/blog/5239179.sHtMl
+
+原标题：golang 系统设计大事务拆分实战思路
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://book.ptutpt.asia/blog/4160371.sHtMl
+
+原标题：记一次本地运行正常，线上环境报错诡异问题
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://book.ptutpt.asia/blog/9593029.sHtMl
+
+原标题：golang 系统设计接口防刷 ip 限流实现
+简介：golang strings 常用函数业务实战，字符串分割替换包含判断前缀后缀，掌握 strings 包高频函数。
+ | 原文链接：http://book.ptutpt.asia/blog/5261584.sHtMl
+
+原标题：golang es 分词器选型业务适配
+简介：golang ioutil 已废弃替换方案，ioutil 废弃之后替换为 os io 包函数，更新旧项目代码。
+ | 原文链接：http://book.ptutpt.asia/blog/9590602.sHtMl
+
+原标题：手写简易 RPC 服务通信原型
+简介：新手参与开源社区贡献指南，介绍开源社区基础规则，讲解阅读 issue、提交 PR 流程，指导开发者参与开源贡献。
+ | 原文链接：http://book.ptutpt.asia/blog/8591817.sHtMl
+
+原标题：Hands‑on：模板渲染引擎最小原型实现
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：http://book.ptutpt.asia/blog/3056959.sHtMl
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang grpc 拦截器开发鉴权日志，开发 grpc 服务端拦截器，统一做鉴权、日志打印、异常捕获处理。
+ | 原文链接：http://book.ptutpt.asia/blog/9605849.sHtMl
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://book.ptutpt.asia/blog/7483626.sHtMl
+
+原标题：数据库连接及时关闭连接泄漏
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：http://book.ptutpt.asia/blog/4161305.sHtMl
+
+原标题：nestjs 拦截器过滤器管道实战
+简介：golang hystrix 模式简易熔断实现，简易熔断组件，错误率达到阈值触发熔断，快速失败保护下游。
+ | 原文链接：http://book.ptutpt.asia/blog/5273528.sHtMl
+
+原标题：CI 持续集成自动构建流程
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://book.ptutpt.asia/blog/5262537.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力梳理
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://book.ptutpt.asia/blog/8470394.sHtMl
+
+原标题：golang 系统设计 monorepo 仓库管理方案
+简介：文件句柄耗尽资源泄露处理，定位文件句柄泄露，修复文件忘记关闭问题，解决句柄耗尽服务报错。
+ | 原文链接：http://book.ptutpt.asia/blog/7613926.sHtMl
+
+原标题：golang 系统设计 hot‑reload 热重载 go 开发工具
+简介：golang net/http 超时全套配置，完整配置 Go HTTP 服务读写空闲超时，全方位防止请求挂住。
+ | 原文链接：http://book.ptutpt.asia/blog/9602815.sHtMl
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：网关超时时间调优后端等待，调大网关向后端转发请求超时时间，给后端业务充足处理时间。
+ | 原文链接：http://book.ptutpt.asia/blog/8591816.sHtMl
+
+原标题：设计思考：API网关和BFF职责边界划分
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.ptutpt.asia/blog/5161458.sHtMl
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://book.ptutpt.asia/blog/4480707.sHtMl
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：RPC 接口字段增减兼容处理，RPC 接口新增删除字段做好向前兼容，老版本服务不会解析报错崩溃。
+ | 原文链接：http://book.ptutpt.asia/blog/4157474.sHtMl
+
+原标题：golang 系统设计批量处理优化业务性能
+简介：golang errgroup 协程组错误处理，errgroup 捕获协程错误，context 取消剩余协程，简化并发任务。
+ | 原文链接：http://book.ptutpt.asia/blog/3746482.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计集成测试数据库回滚重置方案
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://book.ptutpt.asia/blog/6349142.sHtMl
+
+原标题：golang 系统设计 protobuf oneof 类型业务场景
+简介：从零编写简易 CLI 命令行工具，通过实战案例实现基础命令交互，理解命令行程序执行逻辑，产出可运行小工具。
+ | 原文链接：http://book.ptutpt.asia/blog/6383948.sHtMl
+
+原标题：项目实践：搭建监控大盘查看系统关键指标
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://book.ptutpt.asia/blog/3049293.sHtMl
+
+原标题：新手快速上手 Git 版本控制实操指南
+简介：golang go embed 嵌入静态资源文件，使用 go embed 把静态文件编译进二进制，单文件部署携带静态资源。
+ | 原文链接：http://book.ptutpt.asia/blog/8180696.sHtMl
+
+原标题：设计思考：业务埋点架构日志埋点设计原则
+简介：golang go 接口定义原则小接口，go 小接口设计原则，接口尽量小，只定义必要方法，提升代码灵活性。
+ | 原文链接：http://book.ptutpt.asia/blog/5040250.sHtMl
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://book.ptutpt.asia/blog/7079582.sHtMl
+
+原标题：坑点：Git工作区换行符CRLF/LF跨平台坑
+简介：golang 雪花算法 workId 自动获取，自动获取机器 workId，不用手动配置，简化分布式 id 部署。
+ | 原文链接：http://book.ptutpt.asia/blog/5002816.sHtMl
+
+原标题：golang 系统设计本地缓存 redis 缓存多级组合
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://book.ptutpt.asia/blog/3150364.sHtMl
+
+原标题：设计思考：业务系统如何设计优雅失败架构
+简介：golang time 时间格式化避坑，Go 时间格式化参考时间牢记，处理时间解析格式化，解决时间输出错乱。
+ | 原文链接：http://book.ptutpt.asia/blog/8594759.sHtMl
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://book.ptutpt.asia/blog/0727031.sHtMl
+
+原标题：入门实战：搭建简易静态网页项目
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://book.ptutpt.asia/blog/1939136.sHtMl
+
+原标题：方案设计：高可用Redis集群架构选型对比
+简介：项目脚手架模板生成工具，搭建项目模板脚手架，一键生成标准化项目骨架，减少重复初始化工作。
+ | 原文链接：http://book.ptutpt.asia/blog/7493736.sHtMl
+
+原标题：golang 系统设计配置多环境本地开发适配方案
+简介：golang toml 配置文件解析教程，Go 解析 Toml 格式配置，适用于项目配置管理场景。
+ | 原文链接：http://book.ptutpt.asia/blog/3590914.sHtMl
+
+原标题：golang k8s helm chart 简单编写
+简介：前端工程化 webpack 打包优化，针对 webpack 项目做打包调优，分包、压缩、Tree‑Shaking，缩减包体积。
+ | 原文链接：http://book.ptutpt.asia/blog/4140303.sHtMl
+
+原标题：golang 系统设计 protobuf json 性能对比
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://book.ptutpt.asia/blog/5272746.sHtMl
+
+原标题：golang redis lua 脚本开发调试
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://book.ptutpt.asia/blog/7405818.sHtMl
+
+原标题：golang go test 覆盖率统计实操
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.ptutpt.asia/blog/8425025.sHtMl
+
+原标题：API 接口调试与异常处理实战
+简介：golang context.Background 与 TODO 区别，Background 主流程根上下文，TODO 不确定用哪个上下文时使用。
+ | 原文链接：http://book.ptutpt.asia/blog/0716079.sHtMl
+
+原标题：部署复盘：GitHubActions完整自动化配置
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://book.ptutpt.asia/blog/6339463.sHtMl
+
+原标题：静态网页 HTML CSS 快速入门实战
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://book.ptutpt.asia/blog/1939580.sHtMl
+
+原标题：golang mongodb 分页性能优化技巧
+简介：Git 子模块更新代码不全修复，正确更新 Git 子模块，拉取子模块完整代码，解决子模块目录为空问题。
+ | 原文链接：http://book.ptutpt.asia/blog/4302707.sHtMl
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：golang 接口限流中间件开发，Gin 开发限流中间件，接口层实现访问频率限制，防护接口流量。
+ | 原文链接：http://book.ptutpt.asia/blog/4153524.sHtMl
+
+原标题：Hands‑on：搭建OAuth2简易授权服务Demo
+简介：golang 优雅处理 http 重定向逻辑，自定义控制 http 重定向跳转次数，防止无限重定向死循环。
+ | 原文链接：http://book.ptutpt.asia/blog/5971813.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.ptutpt.asia/blog/1827148.sHtMl
+
+原标题：日志敏感信息脱敏泄露防护
+简介：Redis 内存淘汰策略数据防丢失，合理配置 Redis 内存淘汰策略，防止内存满后误删除业务重要数据。
+ | 原文链接：http://book.ptutpt.asia/blog/4262514.sHtMl
+
+原标题：golang 系统设计一致性哈希原理讲解
+简介：golang redis zset 实现延时任务队列，zset 存储任务到期时间，轮询到期任务执行，简易延迟队列。
+ | 原文链接：http://book.ptutpt.asia/blog/1834039.sHtMl
+
+原标题：并发数据覆盖加锁安全处理
+简介：golang time 定时器重置 Reset 正确用法，Timer Reset 调用前提，避免 Reset 带来逻辑错误。
+ | 原文链接：http://book.ptutpt.asia/blog/7470584.sHtMl
+
+原标题：GitHub 项目提交推送完整流程讲解
+简介：golang testify testify 断言库使用，testify assert require 断言，简化单元测试断言代码。
+ | 原文链接：http://book.ptutpt.asia/blog/5968362.sHtMl
+
+原标题：新手向：开源项目fork与同步上游代码
+简介：golang 错误静默忽略风险规避，禁止空忽略错误，必须处理或者明确注释为什么忽略错误。
+ | 原文链接：http://book.ptutpt.asia/blog/5251351.sHtMl
+
+原标题：golang 系统设计异步化改造业务流程思路
+简介：golang 终端交互式输入选择，命令行交互式问答选择输入，实现交互式脚本工具。
+ | 原文链接：http://book.ptutpt.asia/blog/3263403.sHtMl
+
+原标题：golang mysql 主从同步延迟兼容
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://book.ptutpt.asia/blog/6392928.sHtMl
+
+原标题：开发记录：分布式ID生成器实现与压力测试
+简介：golang 时间时区处理避坑指南，Go 时间时区常见坑，时区转换，时间比较，规避时间逻辑错误。
+ | 原文链接：http://book.ptutpt.asia/blog/0728069.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：golang go 线上故障排查完整流程，CPU 高、内存上涨、接口超时、goroutine 泄露一套排查处理流程。
+ | 原文链接：http://book.ptutpt.asia/blog/4857266.sHtMl
+
+原标题：golang redis zset 延时队列实现
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://book.ptutpt.asia/blog/5260584.sHtMl
+
+原标题：Architecture：监控告警架构避免告警风暴设计
+简介：内存溢出问题现象识别排查，识别内存溢出现象，梳理排查方向，定位内存持续上涨引发服务崩溃问题。
+ | 原文链接：http://book.ptutpt.asia/blog/4725047.sHtMl
+
+原标题：前后端交互跨域问题完整处理
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://book.ptutpt.asia/blog/3747271.sHtMl
+
+原标题：Hands‑on：简易压缩中间件gzip实现实践
+简介：monorepo 项目多包管理最佳实践，monorepo 仓库管理多子包，统一版本管理，处理包之间互相依赖。
+ | 原文链接：http://book.ptutpt.asia/blog/6092803.sHtMl
+
+原标题：数据库读写分离性能优化
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://book.ptutpt.asia/blog/2928092.sHtMl
+
+原标题：实践：静态站点自动化部署到GitHubPages
+简介：配置外部化线上部署防错误，把配置从代码剥离，外部传入配置，修改配置不需要重新打包构建。
+ | 原文链接：http://book.ptutpt.asia/blog/6373637.sHtMl
+
+原标题：golang 系统设计开发环境本地调试最佳实践
+简介：golang go‑zero 中间件鉴权限流，go‑zero 自定义中间件，实现鉴权、限流、日志打印通用能力。
+ | 原文链接：http://book.ptutpt.asia/blog/7383707.sHtMl
+
+三、实战开发｜Practice
+原标题：Hands‑on：模拟RPC超时重试业务异常场景
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://book.ptutpt.asia/blog/8505804.sHtMl
+
+原标题：golang 系统设计逻辑删除物理删除选型对比
+简介：golang 文件上传下载接口开发，Go 开发文件上传下载接口，校验文件，处理文件读写存储逻辑。
+ | 原文链接：http://book.ptutpt.asia/blog/9606069.sHtMl
+
+原标题：golang 系统设计防重复提交实现
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.ptutpt.asia/blog/8580602.sHtMl
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://book.ptutpt.asia/blog/6379584.sHtMl
+
+原标题：实践：数据库回滚点业务调试实践
+简介：golang gin 获取客户端真实 IP，多层代理场景正确拿到用户真实访问 IP，避免拿到网关代理内网地址。
+ | 原文链接：http://book.ptutpt.asia/blog/0602524.sHtMl
+
+原标题：golang redis 发布订阅简单示例
+简介：golang hertz http 框架快速上手，hertz 高性能 http 框架，路由中间件参数校验快速开发接口服务。
+ | 原文链接：http://book.ptutpt.asia/blog/9605038.sHtMl
+
+原标题：golang 配置热更新不重启服务
+简介：golang http 服务性能优化调参，调优 Go HTTP 服务参数，调整连接池，提升服务并发吞吐能力。
+ | 原文链接：http://book.ptutpt.asia/blog/3049472.sHtMl
+
+原标题：Practice：实现接口幂等性多种方案对比实践
+简介：nodejs 跨域中间件配置细节，Express 跨域中间件配置细节，处理预检请求，修复偶现跨域失效。
+ | 原文链接：http://book.ptutpt.asia/blog/2868461.sHtMl
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：Shell 运维脚本服务器效率提升，编写常用运维 Shell 脚本，自动化服务器运维操作，减少手工重复工作。
+ | 原文链接：http://book.ptutpt.asia/blog/9312696.sHtMl
+
+原标题：设计思考：消息顺序性架构保证与业务妥协
+简介：golang 字符串处理常用技巧汇总，字符串拼接、分割、替换、类型转换实操，规避字符串高频错误。
+ | 原文链接：http://book.ptutpt.asia/blog/9312805.sHtMl
+
+原标题：多版本开发环境共存配置
+简介：轻量 API 后端接口服务快速开发，快速搭建简易 API 服务，实现基础接口能力，快速支撑小型业务需求。
+ | 原文链接：http://book.ptutpt.asia/blog/0691460.sHtMl
+
+原标题：服务器时钟同步任务错乱修复
+简介：golang http 客户端连接泄漏排查，http client 未读取响应体导致连接无法复用，解决连接泄漏耗尽连接池。
+ | 原文链接：http://book.ptutpt.asia/blog/1827170.sHtMl
+
+原标题：golang 链路追踪简易实现方案
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://book.ptutpt.asia/blog/8594696.sHtMl
+
+原标题：CI 流水线构建失败日志排查
+简介：golang 接口返回统一封装工具，封装 Go 接口统一返回工具，标准化成功失败返回结构体。
+ | 原文链接：http://book.ptutpt.asia/blog/7491707.sHtMl
+
+原标题：golang 系统设计避免索引失效书写 sql 原则
+简介：golang sync.Pool 对象池复用对象，sync.Pool 复用临时对象，减少内存分配，降低 GC 频率提升性能。
+ | 原文链接：http://book.ptutpt.asia/blog/6380704.sHtMl
+
+原标题：golang redis 限流几种实现方案
+简介：golang sort 稳定排序 Stable，稳定排序保留相等元素原有顺序，业务需要稳定排序场景。
+ | 原文链接：http://book.ptutpt.asia/blog/0713141.sHtMl
+
+原标题：golang es 映射 mapping 设计避坑
+简介：golang 项目目录分层规范设计，Go 后端项目目录分层规范，按领域分层，提高项目可读性可维护性。
+ | 原文链接：http://book.ptutpt.asia/blog/0704036.sHtMl
+
+原标题：快速入门简单签名校验实现思路
+简介：golang 配置热更新不重启服务，实现配置热加载，监听配置变更，更新内存配置，无需重启服务实例。
+ | 原文链接：http://book.ptutpt.asia/blog/5160697.sHtMl
+
+原标题：开发复盘：批量任务进度持久化实现方案
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://book.ptutpt.asia/blog/5828248.sHtMl
+
+原标题：开源实践：给开源项目写单元测试贡献代码
+简介：TCP 长连接参数优化 TIME_WAIT，调整 TCP 内核参数，优化长连接，减少大量 TIME_WAIT 连接占用资源。
+ | 原文链接：http://book.ptutpt.asia/blog/3857364.sHtMl
+
+原标题：TLS 版本兼容 HTTPS 握手失败
+简介：golang os 进程 pid 获取父进程 pid，os.Getpid 获取进程 id，获取父进程 pid，进程间识别。
+ | 原文链接：http://book.ptutpt.asia/blog/3038351.sHtMl
+
+原标题：golang 系统设计分布式事务几种方案优缺点
+简介：Redis 大 key 拆分集群卡顿解决，拆分 Redis 超大 Key，避免大 key 操作造成 Redis 集群卡顿阻塞。
+ | 原文链接：http://book.ptutpt.asia/blog/4150180.sHtMl
+
+原标题：Cookie 跨环境登录配置调整
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://book.ptutpt.asia/blog/4168262.sHtMl
+
+原标题：Security：限流防爬虫防恶意攻击防护体系
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：http://book.ptutpt.asia/blog/5294738.sHtMl
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://book.ptutpt.asia/blog/8605733.sHtMl
+
+原标题：Troubleshooting：依赖安装失败完整排查清单
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://book.ptutpt.asia/blog/0827282.sHtMl
+
+原标题：项目实践：OpenTelemetry链路追踪本地部署实践
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.ptutpt.asia/blog/9627358.sHtMl
+
+原标题：golang http 请求重试封装工具
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://book.ptutpt.asia/blog/6373586.sHtMl
+
+原标题：nestjs 全局返回格式统一处理
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://book.ptutpt.asia/blog/4157471.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://book.ptutpt.asia/blog/3647472.sHtMl
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://book.ptutpt.asia/blog/7605734.sHtMl
+
+原标题：语义化版本依赖管理防错乱
+简介：golang 服务限流熔断降级监控完整实践，微服务防护体系，限流熔断降级指标监控告警整套落地。
+ | 原文链接：http://book.ptutpt.asia/blog/9504838.sHtMl
+
+原标题：nodejs redis 缓存业务实战
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://book.ptutpt.asia/blog/1938360.sHtMl
+
+原标题：Practice：实现业务id生成不连续有序ID方案
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://book.ptutpt.asia/blog/1839184.sHtMl
+
+原标题：分布式任务调度集群原型开发
+简介：golang proto 默认值坑点梳理，梳理 Protobuf 默认值坑，零值字段区分未赋值，避免业务逻辑错误。
+ | 原文链接：http://book.ptutpt.asia/blog/0525070.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：开发测试生产多环境配置区分，讲解三套环境配置分离思路，配置文件隔离，防止开发配置泄露到生产环境。
+ | 原文链接：http://book.ptutpt.asia/blog/2938102.sHtMl
+
+原标题：golang ci 流水线代码质量扫描集成
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://book.ptutpt.asia/blog/8580607.sHtMl
+
+原标题：Security：SSRF服务端请求伪造漏洞防御
+简介：内网 DNS 不稳定随机报错排查，定位内网 DNS 抖动问题，配置备选 DNS，解决偶现域名解析失败。
+ | 原文链接：http://book.ptutpt.asia/blog/8291706.sHtMl
+
+原标题：多实例部署 Session 共享方案
+简介：无用对象回收抑制内存上涨，优化对象生命周期，及时释放不再使用对象，抑制内存持续不断增长。
+ | 原文链接：http://book.ptutpt.asia/blog/8584849.sHtMl
+
+原标题：Debug：异步任务堆积，服务响应越来越慢
+简介：网关集成鉴权限流日志一体化，在网关层整合鉴权、限流、请求日志，统一对入口请求做管控处理。
+ | 原文链接：http://book.ptutpt.asia/blog/0714049.sHtMl
+
+四、架构设计｜Architecture
+原标题：Practice：实现异步回调处理通用组件封装
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://book.ptutpt.asia/blog/3042575.sHtMl
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://book.ptutpt.asia/blog/5373708.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：golang go 泛型实现通用数据结构，泛型实现通用栈队列，复用逻辑支持多种数据类型。
+ | 原文链接：http://book.ptutpt.asia/blog/9302522.sHtMl
+
+原标题：DevOps：容器网络模式选型与坑点总结
+简介：golang 简单爬虫请求防封禁，简易 Go 爬虫实现，增加请求间隔、UA 伪装，规避被目标站点封禁 IP。
+ | 原文链接：http://book.ptutpt.asia/blog/1850394.sHtMl
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://book.ptutpt.asia/blog/8505748.sHtMl
+
+原标题：部署实践：DockerCompose管理多服务环境
+简介：golang 优雅关闭 grpc 服务示例，gRPC 服务优雅关闭，等待现有请求处理完成再停止服务。
+ | 原文链接：http://book.ptutpt.asia/blog/6374708.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：golang defer 执行顺序与坑点，defer 后进先出，循环内部 defer 陷阱，资源释放正确写法。
+ | 原文链接：http://book.ptutpt.asia/blog/5272516.sHtMl
+
+原标题：Security：业务操作审计日志安全留存
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://book.ptutpt.asia/blog/4879364.sHtMl
+
+原标题：容器内存扩容 OOM 被杀死修复
+简介：golang docker 镜像构建最佳实践，Go 项目 Docker 镜像构建最佳实践，减小镜像体积，安全构建。
+ | 原文链接：http://book.ptutpt.asia/blog/8594475.sHtMl
+
+原标题：运维笔记：服务器日志轮转logrotate配置
+简介：版本升级服务启动失败处理，版本更新之后服务无法启动，对比新旧版本配置、依赖差异，完成故障修复。
+ | 原文链接：http://book.ptutpt.asia/blog/0413808.sHtMl
+
+原标题：golang 系统设计日志系统架构思路
+简介：依赖安装失败全方位排错，从网络、镜像源、权限、版本多角度，定位依赖安装失败，给出对应修复手段。
+ | 原文链接：http://book.ptutpt.asia/blog/0422894.sHtMl
+
+原标题：设计思考：消息队列重复消费架构层防御手段
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://book.ptutpt.asia/blog/3759464.sHtMl
+
+原标题：快速入门容器基础概念，理解镜像与容器
+简介：Docker 容器入门镜像实操教程，介绍 Docker 基础概念，演示镜像拉取、容器启停，帮助新手建立容器化开发认知。
+ | 原文链接：http://book.ptutpt.asia/blog/3019071.sHtMl
+
+原标题：数据库分表路由写入分片修正
+简介：golang elasticsearch 客户端 golang 实操，es 客户端文档增删改查，条件搜索聚合统计对接搜索引擎。
+ | 原文链接：http://book.ptutpt.asia/blog/4150482.sHtMl
+
+原标题：前端下载导出文件功能实现
+简介：前端骨架屏提升页面体验，实现页面骨架屏，数据未加载完成展示占位，优化页面白屏感知体验。
+ | 原文链接：http://book.ptutpt.asia/blog/2638060.sHtMl
+
+原标题：golang validator 自定义校验规则
+简介：eslint prettier 代码规范落地，配置 eslint 与 prettier，做代码检查格式化，统一前端团队代码风格。
+ | 原文链接：http://book.ptutpt.asia/blog/3047252.sHtMl
+
+原标题：golang 系统设计 api 网关核心能力梳理
+简介：JSON XML 数据解析处理示例，演示两种格式数据解析与序列化，增加异常捕获，处理格式错乱导致解析失败。
+ | 原文链接：http://book.ptutpt.asia/blog/7182715.sHtMl
+
+原标题：安全实践：输入输出双向过滤安全最佳实践
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://book.ptutpt.asia/blog/0736141.sHtMl
+
+?
