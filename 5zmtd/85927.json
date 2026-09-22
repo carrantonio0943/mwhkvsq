@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：Nginx 缓冲区调优大文件上传
+简介：业务接口幂等完整落地案例，完整业务场景幂等落地示例，覆盖表单提交、回调、重试各类场景。
+ | 原文链接：http://book.degjul.asia/blog/3156363.sHtMl
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：配置与镜像分离防止信息泄露，业务配置不打包进镜像，外部挂载配置，避免密钥配置随镜像泄露。
+ | 原文链接：http://book.degjul.asia/blog/8524807.sHtMl
+
+原标题：Nginx 缓冲区调优大文件上传
+简介：golang 日志脱敏敏感字段过滤，日志打印自动脱敏敏感字段，避免日志输出手机号身份证泄露隐私。
+ | 原文链接：http://book.degjul.asia/blog/0616806.sHtMl
+
+原标题：快速上手阅读开源项目源码的入门思路
+简介：模拟登录鉴权权限判断示例，实现简易登录流程，会话状态维护，完成接口权限校验，理解身份鉴权基础逻辑。
+ | 原文链接：http://book.degjul.asia/blog/5246237.sHtMl
+
+原标题：短信服务封装失败自动重试
+简介：golang kafka 同步异步消费对比，对比 Kafka 同步消费异步消费，分析优缺点，业务选型参考。
+ | 原文链接：http://book.degjul.asia/blog/9583626.sHtMl
+
+原标题：实战：基于内存实现简单消息广播组件
+简介：golang 分库分表 id 路由规则设计，分库分表 id 路由算法，id 映射库表，数据均匀打散避免热点分片。
+ | 原文链接：http://book.degjul.asia/blog/8599571.sHtMl
+
+原标题：Troubleshoot：DNS解析异常导致第三方调用失败
+简介：golang 分页查询封装通用工具，封装 Go 通用分页工具，统一处理分页参数，简化业务分页接口开发。
+ | 原文链接：http://book.degjul.asia/blog/9605793.sHtMl
+
+原标题：代理 HTTPS 证书访问异常处理
+简介：移动端适配 rem vw 方案对比，对比 rem 与 vw 移动端适配方案，分析优缺点，给出选型建议。
+ | 原文链接：http://book.degjul.asia/blog/7480685.sHtMl
+
+原标题：环境变量不生效问题修复
+简介：日志输出规范防止磁盘爆满，控制日志输出量，配置日志切割轮转，避免日志文件无限增长占满磁盘。
+ | 原文链接：http://book.degjul.asia/blog/9523626.sHtMl
+
+原标题：项目实践：灰度发布简易方案落地实践
+简介：golang json number 数字不转 float64，使用 json.Number 保留原始数字字符串，防止大数字精度丢失。
+ | 原文链接：http://book.degjul.asia/blog/5161492.sHtMl
+
+原标题：golang mysql 避免 select * 查询
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.degjul.asia/blog/4067260.sHtMl
+
+原标题：golang 集成测试启动测试数据库
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://book.degjul.asia/blog/7372625.sHtMl
+
+原标题：golang 系统设计日志轮转切割防止磁盘占满
+简介：golang go test 单元测试命令参数详解，gotest 参数覆盖率，指定测试用例，跳过测试，单元测试命令实操。
+ | 原文链接：http://book.degjul.asia/blog/3924626.sHtMl
+
+原标题：golang redis 缓存预热实现思路
+简介：容器软链接文件权限修复，修复容器内软链接文件权限，让程序能够正常读取软链接指向的文件。
+ | 原文链接：http://book.degjul.asia/blog/6927848.sHtMl
+
+原标题：架构笔记：冷热数据分离架构设计与迁移
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://book.degjul.asia/blog/4159147.sHtMl
+
+原标题：零基础理解缓存基础原理与简单使用
+简介：golang md5 sha 加密工具实现，实现 MD5、SHA 哈希工具，做数据摘要，用于签名校验场景。
+ | 原文链接：http://book.degjul.asia/blog/2594725.sHtMl
+
+原标题：Practice：实现多级缓存本地缓存+Redis实践
+简介：golang go 随机数安全与非安全，math/rand 伪随机与 crypto/rand 密码学安全随机，区分业务场景。
+ | 原文链接：http://book.degjul.asia/blog/7372575.sHtMl
+
+原标题：配置外部化线上部署防错误
+简介：golang http.Server 配置参数详解，ReadTimeout WriteTimeout IdleTimeout，全方位防护慢请求攻击。
+ | 原文链接：http://book.degjul.asia/blog/3033026.sHtMl
+
+原标题：包管理器依赖缓存清理
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：http://book.degjul.asia/blog/5168469.sHtMl
+
+原标题：golang docker 部署 prometheus 整套
+简介：golang redis bloom 布隆过滤器 go‑redis，go‑redis 布隆过滤器，海量数据判断是否存在，减少数据库查询。
+ | 原文链接：http://book.degjul.asia/blog/4145252.sHtMl
+
+原标题：安全实践：输入输出双向过滤安全最佳实践
+简介：程序预加载加快服务启动速度，把高频使用资源提前预加载，减少请求阶段初始化，加快服务启动。
+ | 原文链接：http://book.degjul.asia/blog/0360248.sHtMl
+
+原标题：golang 系统设计 mq 消息积压解决方案
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://book.degjul.asia/blog/5150304.sHtMl
+
+原标题：内存广播本地进程消息通知
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://book.degjul.asia/blog/1591255.sHtMl
+
+原标题：golang 系统设计海量数据分页查询
+简介：nodejs 单元测试 jest 实操教程，Jest 单元测试实操，编写测试用例，mock 依赖，验证业务逻辑正确性。
+ | 原文链接：http://book.degjul.asia/blog/8768036.sHtMl
+
+原标题：Architecture：API网关核心能力与组件拆分
+简介：golang go yaml 解析自定义类型，yaml 自定义序列化，时间、特殊类型自定义解析逻辑。
+ | 原文链接：http://book.degjul.asia/blog/5960381.sHtMl
+
+原标题：开发记录：JWT过期刷新滑动过期实现实践
+简介：golang 微服务网关简易实现，http 反向代理、路由匹配、鉴权限流，理解网关核心原理。
+ | 原文链接：http://book.degjul.asia/blog/6278363.sHtMl
+
+原标题：golang 系统设计 rest 状态码合理使用指南
+简介：golang 单元测试 mock http 请求，mock HTTP 外部接口，单元测试不依赖外部网络，保证用例稳定运行。
+ | 原文链接：http://book.degjul.asia/blog/5145035.sHtMl
+
+原标题：方案设计：短链接系统完整架构方案拆解
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://book.degjul.asia/blog/5150374.sHtMl
+
+原标题：架构笔记：事件驱动架构适用场景与坑点
+简介：golang hertz 反向代理与负载均衡，hertz 实现反向代理，内置负载均衡，快速搭建网关类服务。
+ | 原文链接：http://book.degjul.asia/blog/7078671.sHtMl
+
+原标题：golang 系统设计采样策略降低链路存储开销
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://book.degjul.asia/blog/1820348.sHtMl
+
+原标题：实战：数据库explain执行计划分析实操演练
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://book.degjul.asia/blog/5488571.sHtMl
+
+原标题：序列化版本不一致解析失败
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://book.degjul.asia/blog/4033584.sHtMl
+
+原标题：业务错误码体系设计方案
+简介：OOMKilled 容器被杀完整排查，排查容器被 OOM 终止完整流程，区分程序内存泄露和容器内存限制过小。
+ | 原文链接：http://book.degjul.asia/blog/3275323.sHtMl
+
+原标题：Performance：JSON序列化性能优化实践
+简介：golang k8s informer 机制原理理解，informer 监听 k8s 资源变更，本地缓存，减少 apiserver 压力。
+ | 原文链接：http://book.degjul.asia/blog/9497553.sHtMl
+
+原标题：CDN 缓存刷新获取最新静态资源
+简介：golang gin 框架接口开发实战，Gin 框架搭建 HTTP 服务，开发增删改查接口，快速完成后端接口开发。
+ | 原文链接：http://book.degjul.asia/blog/1928580.sHtMl
+
+原标题：从零搭建简单Mock接口服务
+简介：golang 压缩 zip 文件生成解压，golang 实现 zip 压缩打包，解压 zip 归档文件，处理批量文件归档。
+ | 原文链接：http://book.degjul.asia/blog/0738038.sHtMl
+
+原标题：安全实践：生产环境禁止开启debug调试模式
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://book.degjul.asia/blog/4048134.sHtMl
+
+原标题：golang 系统设计告警渠道钉钉邮件企业微信集成
+简介：图片上传预览格式大小处理，实现图片上传接口，校验文件格式、大小，完成上传后预览处理。
+ | 原文链接：http://book.degjul.asia/blog/5126246.sHtMl
+
+原标题：golang 系统设计分布式锁选型对比
+简介：调试工具断点调试变量查看技巧，演示断点设置、变量监视、调用栈查看，借助调试工具高效排查业务逻辑错误。
+ | 原文链接：http://book.degjul.asia/blog/8524625.sHtMl
+
+原标题：nodejs 内存溢出问题排查修复
+简介：css 变量主题切换方案实现，使用 CSS 变量实现网页主题切换，多套主题样式快速切换无需大量 CSS。
+ | 原文链接：http://book.degjul.asia/blog/8482928.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：Issue：本地数据库与线上数据库排序规则差异
+简介：golang 子进程执行命令标准流处理，exec.Command 执行外部命令，处理 stdout stderr，防止缓冲区阻塞卡死。
+ | 原文链接：http://book.degjul.asia/blog/3025781.sHtMl
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.degjul.asia/blog/8589157.sHtMl
+
+原标题：golang 系统设计压测工具 wrk 使用实操
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://book.degjul.asia/blog/0925836.sHtMl
+
+原标题：大事务拆分回滚日志暴涨解决
+简介：golang 定时任务 cron 使用指南，Go 使用 Cron 库实现定时任务，配置 corn 表达式调度业务任务。
+ | 原文链接：http://book.degjul.asia/blog/4048146.sHtMl
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://book.degjul.asia/blog/9594684.sHtMl
+
+原标题：踩坑：大事务引发数据库连接池耗尽
+简介：Redis 热点 key 拆分降低集群压力，拆分访问量极高的热点 Key，分散请求压力，避免 Redis 节点压力过高。
+ | 原文链接：http://book.degjul.asia/blog/4157162.sHtMl
+
+原标题：golang base64 编码解码实操
+简介：极简方式搭建个人技术文档站点，使用轻量化工具快速部署文档站点，支持 markdown 编写，实现知识沉淀与对外分享。
+ | 原文链接：http://book.degjul.asia/blog/0372460.sHtMl
+
+原标题：golang 多协程任务池并发控制
+简介：批量异步处理系统业务落地，构建批量异步处理系统，把耗时业务异步化，提升接口响应速度。
+ | 原文链接：http://book.degjul.asia/blog/0717970.sHtMl
+
+原标题：Shell 脚本自动化命令编写
+简介：CI 构建缓存加速编译速度，开启 CI 流水线依赖缓存，复用上一次构建依赖包，缩短流水线构建耗时。
+ | 原文链接：http://book.degjul.asia/blog/3934036.sHtMl
+
+原标题：消息消费重试次数限制防爆炸
+简介：golang 优雅停机服务关闭实现，监听系统信号，关闭服务等待请求处理完毕，实现 Go 服务优雅停机。
+ | 原文链接：http://book.degjul.asia/blog/3045637.sHtMl
+
+原标题：golang 系统设计高可用服务架构梳理
+简介：golang 服务注册 etcd 简单示例，etcd 实现服务注册发现，微服务实例注册元数据，客户端发现节点。
+ | 原文链接：http://book.degjul.asia/blog/6283926.sHtMl
+
+原标题：golang docker 运行 etcd 本地测试
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://book.degjul.asia/blog/4644026.sHtMl
+
+原标题：golang kafka 死信队列业务落地
+简介：接口请求重试容错机制实现，封装请求重试逻辑，遇到临时网络故障自动重试，提升第三方调用稳定性。
+ | 原文链接：http://book.degjul.asia/blog/2049393.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：nodejs 定时任务生产环境避坑，Node 定时任务线上踩坑汇总，集群重复执行、任务阻塞等问题解决方案。
+ | 原文链接：http://book.degjul.asia/blog/4041693.sHtMl
+
+原标题：golang minio 分片上传断点续传
+简介：MySQL 慢查询索引优化实战，抓取慢查询 SQL，分析执行计划，新增或者调整索引，提升 SQL 执行速度。
+ | 原文链接：http://book.degjul.asia/blog/2480315.sHtMl
+
+原标题：golang 系统设计字符串拼接性能优化技巧
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://book.degjul.asia/blog/3049161.sHtMl
+
+原标题：效率笔记：GitWorkflow团队协作规范模板
+简介：golang go 程序运行时动态修改配置，运行时热加载配置结构体，原子更新保证并发读取安全。
+ | 原文链接：http://book.degjul.asia/blog/1712894.sHtMl
+
+原标题：安全复盘：业务接口越权测试与修复实践
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://book.degjul.asia/blog/5161273.sHtMl
+
+原标题：golang 系统设计 go benchmark 性能测试实操
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://book.degjul.asia/blog/1817918.sHtMl
+
+原标题：DevOps：日志标准输出容器日志收集方案
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://book.degjul.asia/blog/3938171.sHtMl
+
+原标题：golang 系统设计内部服务链路 trace 传递实现
+简介：代码格式化工具团队统一风格，接入格式化工具，统一全团队代码书写风格，减少格式类 git 冲突。
+ | 原文链接：http://book.degjul.asia/blog/6304036.sHtMl
+
+原标题：时间精度统一业务判断修复
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://book.degjul.asia/blog/4139271.sHtMl
+
+原标题：效率笔记：Makefile项目构建脚本编写实践
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://book.degjul.asia/blog/9693847.sHtMl
+
+原标题：golang ci 流水线单元测试集成测试
+简介：golang mongodb go 驱动实操教程，mongo‑go‑driver 操作 mongodb，文档增删改查聚合查询。
+ | 原文链接：http://book.degjul.asia/blog/0583579.sHtMl
+
+原标题：golang mysql 死锁排查步骤讲解
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://book.degjul.asia/blog/5062369.sHtMl
+
+原标题：golang 系统设计 mq 消息丢失完整防护
+简介：golang os 环境变量读取设置，os.Getenv os.Setenv os.Unsetenv 读写环境变量，环境变量多值处理。
+ | 原文链接：http://book.degjul.asia/blog/0634126.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://book.degjul.asia/blog/9503626.sHtMl
+
+原标题：手写简易 RPC 服务通信原型
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://book.degjul.asia/blog/4857460.sHtMl
+
+原标题：从零搭建本地数据库开发环境
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://book.degjul.asia/blog/6279474.sHtMl
+
+原标题：golang es 查询语句 DSL 实操
+简介：大文件导出内存溢出防护，流式处理大文件导出，边读边写，不把全部数据加载内存，规避 OOM。
+ | 原文链接：http://book.degjul.asia/blog/8382571.sHtMl
+
+原标题：golang mock 单元测试编写技巧
+简介：WebSocket 双向通信 demo 开发，搭建简易 WebSocket 服务，实现客户端服务端双向消息推送，理解实时通信原理。
+ | 原文链接：http://book.degjul.asia/blog/8515948.sHtMl
+
+原标题：golang kafka 消费者偏移量管理
+简介：golang tcp_NODELAY 关闭延迟发送，设置 tcp_NODELAY，关闭 Nagle 算法，降低小包请求延迟。
+ | 原文链接：http://book.degjul.asia/blog/2802770.sHtMl
+
+原标题：golang 系统设计 protobuf 枚举类型规范写法
+简介：nodejs 进程间通信 IPC 实操，演示 Node.js 主进程子进程 IPC 通信，进程之间传递消息数据。
+ | 原文链接：http://book.degjul.asia/blog/1829473.sHtMl
+
+原标题：golang 优雅处理 http 超时设置
+简介：golang go 版本管理 go install 安装工具，go install 安装指定版本 go 工具，管理本地 go 工具版本。
+ | 原文链接：http://book.degjul.asia/blog/0645148.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang gin 静态资源访问配置，Gin 配置静态资源目录，直接对外提供静态文件访问服务。
+ | 原文链接：http://book.degjul.asia/blog/7436923.sHtMl
+
+原标题：Security：反序列化漏洞风险识别与规避
+简介：数据库 utf8mb4 支持 emoji 存储，数据库字段设置 utf8mb4 字符集，完整支持 emoji 表情存储入库。
+ | 原文链接：http://book.degjul.asia/blog/8166991.sHtMl
+
+原标题：实战项目：实现分布式任务调度最小原型
+简介：TLS 版本兼容 HTTPS 握手失败，兼容老旧 TLS 协议版本，修复部分客户端 HTTPS 握手失败无法访问。
+ | 原文链接：http://book.degjul.asia/blog/1816949.sHtMl
+
+原标题：前端图片懒加载性能优化
+简介：golang go 调用动态链接库 so 文件，go 加载 so 动态库调用函数，复用编译好的 C 动态库。
+ | 原文链接：http://book.degjul.asia/blog/1938035.sHtMl
+
+原标题：效率笔记：提升开发效率shell脚本小工具合集
+简介：golang 静态文件服务搭建教程，Go 搭建静态文件服务，托管静态资源，实现文件直接对外访问。
+ | 原文链接：http://book.degjul.asia/blog/0634648.sHtMl
+
+原标题：golang 系统设计大文件上传架构
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://book.degjul.asia/blog/2922348.sHtMl
+
+三、实战开发｜Practice
+原标题：Git 子模块更新代码不全修复
+简介：golang 模糊测试 go fuzz 基础编写，Fuzz 测试函数，自动生成随机输入，发现代码崩溃 panic。
+ | 原文链接：http://book.degjul.asia/blog/2938460.sHtMl
+
+原标题：OpenAPI 自动接口文档生成
+简介：静态网页 HTML CSS 快速入门实战，通过简单页面案例讲解标签、样式布局，从零编写页面，理解网页基础渲染原理。
+ | 原文链接：http://book.degjul.asia/blog/5260394.sHtMl
+
+原标题：安全实践：容器最小化镜像减少攻击面
+简介：nestjs 权限守卫鉴权实现方案，使用 Nest 守卫实现接口鉴权，角色权限控制，拦截未授权接口访问。
+ | 原文链接：http://book.degjul.asia/blog/3938171.sHtMl
+
+原标题：开发记录：网关实现接口鉴权、限流、日志打印
+简介：golang context.WithValue 传递元数据，WithValue 只传 traceId 鉴权元数据，不要传业务大对象。
+ | 原文链接：http://book.degjul.asia/blog/3061392.sHtMl
+
+原标题：数值 key 浮点匹配异常规避
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://book.degjul.asia/blog/4823683.sHtMl
+
+原标题：无用对象回收抑制内存上涨
+简介：系统文件描述符上限调大，调高操作系统文件描述符上限，解决高并发场景打开文件报错。
+ | 原文链接：http://book.degjul.asia/blog/2501461.sHtMl
+
+原标题：开发记录：业务错误告警邮件通知组件实践
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://book.degjul.asia/blog/1726011.sHtMl
+
+原标题：golang 系统设计本地缓存更新失效方案实现
+简介：golang grpc protobuf 开发实操，Go gRPC 开发，编写 Protobuf 定义，服务端客户端完整示例。
+ | 原文链接：http://book.degjul.asia/blog/3968059.sHtMl
+
+原标题：golang 大文件 http 下载服务
+简介：golang 设置 net.Conn 读写超时，每次读写设置超时，防止连接永久阻塞挂起不返回。
+ | 原文链接：http://book.degjul.asia/blog/0933925.sHtMl
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：golang bufio.Scanner 按行读取大文件，Scanner 逐行读取文本文件，处理超大日志 csv。
+ | 原文链接：http://book.degjul.asia/blog/2927159.sHtMl
+
+原标题：部署复盘：服务启动顺序依赖处理方案
+简介：项目目录结构规范化最佳实践，梳理源码、配置、静态资源目录划分，规范项目布局，提升代码可读性和可维护性。
+ | 原文链接：http://book.degjul.asia/blog/3924684.sHtMl
+
+原标题：调优方案：Web服务内核socket参数调优
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.degjul.asia/blog/3827047.sHtMl
+
+原标题：方案对比：同步调用vs异步消息业务选型
+简介：golang 响应 body 流式返回大数据，http 流式输出数据，边生成边返回，无需在内存组装完整返回结果。
+ | 原文链接：http://book.degjul.asia/blog/7468369.sHtMl
+
+原标题：golang docker 部署 redis 配置要点
+简介：golang raw socket 底层网络报文收发，raw socket 收发原始网络报文，做网络抓包数据包处理。
+ | 原文链接：http://book.degjul.asia/blog/8595718.sHtMl
+
+原标题：golang 系统设计联合索引设计避坑要点
+简介：golang http 中间件洋葱模型原理，理解 go http 中间件洋葱模型，请求响应流转顺序，编写自定义中间件。
+ | 原文链接：http://book.degjul.asia/blog/5149282.sHtMl
+
+原标题：Hands‑on：简易的事件订阅发布组件开发实践
+简介：nodejs 数据库连接池配置调优，调优 Node 数据库连接池参数，平衡性能与资源占用，避免连接耗尽。
+ | 原文链接：http://book.degjul.asia/blog/4038182.sHtMl
+
+原标题：架构笔记：业务系统反模式架构踩坑总结
+简介：golang go 模板缓存预编译模板，预编译 html 模板，程序启动加载，避免每次请求解析模板损耗性能。
+ | 原文链接：http://book.degjul.asia/blog/1827050.sHtMl
+
+原标题：golang redis 集群 hash 槽讲解
+简介：跨平台 uniapp 多端开发实操，uniapp 开发一套代码，编译多端，梳理多端差异处理与适配技巧。
+ | 原文链接：http://book.degjul.asia/blog/0362463.sHtMl
+
+原标题：Practice：模拟第三方接口超时服务降级验证
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://book.degjul.asia/blog/4744259.sHtMl
+
+原标题：golang 系统设计数据库查询优化完整流程
+简介：golang init 函数合理使用边界，少用 init，优先显式调用初始化，便于控制初始化时机。
+ | 原文链接：http://book.degjul.asia/blog/0715850.sHtMl
+
+原标题：golang 系统设计 k8s 集群安全配置梳理
+简介：YAML 配置文件语法快速上手，讲解 YAML 基础语法、缩进规则，编写项目配置文件，规避语法错误引发程序异常。
+ | 原文链接：http://book.degjul.asia/blog/6260686.sHtMl
+
+原标题：golang etcd 租约 lease 过期机制
+简介：线程池拒绝策略任务丢失防护，合理设置线程池拒绝策略，处理任务队列满场景，避免业务任务直接丢失。
+ | 原文链接：http://book.degjul.asia/blog/0716818.sHtMl
+
+原标题：HelloGitWorkflow：理解简单主干开发流程
+简介：golang mime 类型检测文件，mime 识别文件 mime 类型，设置 http 响应 Content‑Type。
+ | 原文链接：http://book.degjul.asia/blog/9672470.sHtMl
+
+原标题：Hands‑on：本地模拟分布式锁失效场景测试
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://book.degjul.asia/blog/5156237.sHtMl
+
+原标题：新手指南：读懂项目构建脚本作用
+简介：golang trace 链路追踪 opentelemetry，opentelemetry 实现链路追踪，生成 traceId spanId，完整记录调用链路。
+ | 原文链接：http://book.degjul.asia/blog/6238026.sHtMl
+
+原标题：golang redis 连接池参数最佳值
+简介：动态定时任务业务调度实现，实现可以动态增删启停定时任务，无需重启服务调整调度任务。
+ | 原文链接：http://book.degjul.asia/blog/1379215.sHtMl
+
+原标题：项目实践：接口压测，逐步加压观察系统表现
+简介：golang 换行符统一处理，文本文件读写统一换行符，规避不同系统换行符带来解析异常。
+ | 原文链接：http://book.degjul.asia/blog/7073572.sHtMl
+
+原标题：排错：容器OOM被杀死，日志看不到任何输出
+简介：golang go 错误包装 fmt.Errorf % w，使用 % w 包装错误，支持 errors.Is errors.As 判断错误类型。
+ | 原文链接：http://book.degjul.asia/blog/8311404.sHtMl
+
+原标题：golang redis lua 脚本开发调试
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://book.degjul.asia/blog/0605848.sHtMl
+
+原标题：本地运行正常线上报错排查
+简介：前端错误监控上报系统搭建，搭建前端错误监控，捕获页面 JS 错误，上报后端，快速发现线上页面 bug。
+ | 原文链接：http://book.degjul.asia/blog/5169141.sHtMl
+
+原标题：排错：macOS权限保护导致脚本执行被拦截
+简介：golang os.Exit 退出程序注意 defer 不执行，os.Exit 会直接退出，不会执行 defer，优雅退出不要直接 os.Exit。
+ | 原文链接：http://book.degjul.asia/blog/4151393.sHtMl
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang redis hash 结构业务实战，使用 Redis Hash 存储对象数据，适合对象字段频繁更新业务场景。
+ | 原文链接：http://book.degjul.asia/blog/6372564.sHtMl
+
+原标题：Practice：实现业务id生成不连续有序ID方案
+简介：时间同步修复令牌提前过期，服务器时间不同步导致 JWT 令牌提前过期，同步系统时间解决异常。
+ | 原文链接：http://book.degjul.asia/blog/2814815.sHtMl
+
+原标题：DevOps：Docker镜像优化，减小镜像体积实践
+简介：多套环境灵活切换配置方案，实现配置动态切换，通过环境变量、配置文件，快速切换开发测试生产环境。
+ | 原文链接：http://book.degjul.asia/blog/0812816.sHtMl
+
+原标题：全量回归测试提升代码质量
+简介：接口幂等性防重复请求实现，实现接口幂等逻辑，避免重复提交请求产生多条脏数据，保障业务数据安全。
+ | 原文链接：http://book.degjul.asia/blog/3044030.sHtMl
+
+原标题：数据库排序规则统一结果一致
+简介：消息队列生产消费模型入门，讲解消息队列生产、存储、消费流程，理解异步解耦、削峰，掌握消息队列基础概念。
+ | 原文链接：http://book.degjul.asia/blog/7401314.sHtMl
+
+原标题：golang mysql 防止 sql 注入实践
+简介：golang excel 简单读写操作示例，Go 实现 Excel 简单读写，业务数据导出 Excel 报表。
+ | 原文链接：http://book.degjul.asia/blog/0703748.sHtMl
+
+原标题：Practice：模拟数据库故障验证降级逻辑实践
+简介：vue3 组合式 API 业务开发实战，Vue3 组合式 API 业务实战示例，拆分业务逻辑组合复用，提升代码组织。
+ | 原文链接：http://book.degjul.asia/blog/8594791.sHtMl
+
+原标题：golang mysql 字符集排序规则设置
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://book.degjul.asia/blog/9448059.sHtMl
+
+原标题：数据库读写分离性能优化
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://book.degjul.asia/blog/2646241.sHtMl
+
+四、架构设计｜Architecture
+原标题：golang 系统设计测试环境预发环境生产环境隔离
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://book.degjul.asia/blog/5168460.sHtMl
+
+原标题：golang 跨域处理中间件编写
+简介：golang fasthttp 客户端连接池调优，fasthttp 客户端连接池配置，复用连接提升请求性能。
+ | 原文链接：http://book.degjul.asia/blog/2926815.sHtMl
+
+原标题：配置与镜像分离防止信息泄露
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://book.degjul.asia/blog/8484798.sHtMl
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://book.degjul.asia/blog/7504626.sHtMl
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://book.degjul.asia/blog/3268460.sHtMl
+
+原标题：nodejs 信号处理优雅关闭服务
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://book.degjul.asia/blog/7483698.sHtMl
+
+原标题：golang 系统设计多级缓存架构落地
+简介：golang 消息队列中间件选型对比，kafka redis‑stream rabbitmq，对比吞吐量可靠性选型参考。
+ | 原文链接：http://book.degjul.asia/blog/2928020.sHtMl
+
+原标题：golang 系统设计敏感数据加密存储方案
+简介：集成测试业务流程编写示例，编写业务流程集成测试，覆盖完整业务链路，验证模块之间协同工作是否正常。
+ | 原文链接：http://book.degjul.asia/blog/2825836.sHtMl
+
+原标题：安全实践：API密钥管理轮换最佳实践
+简介：golang os 文件权限 mode，os.FileMode 文件权限，读写执行权限位，跨平台权限注意事项。
+ | 原文链接：http://book.degjul.asia/blog/6291796.sHtMl
+
+原标题：golang 系统设计定时任务分布式锁防重复执行
+简介：golang 信号捕获程序退出处理，Go 捕获操作系统信号，做资源回收，控制程序退出流程。
+ | 原文链接：http://book.degjul.asia/blog/4049120.sHtMl
+
+原标题：nodejs 全局异常捕获进程防护
+简介：Nginx 缓冲区调优大文件上传，调大 Nginx 请求缓冲区，支持客户端上传大体积文件，避免上传被截断。
+ | 原文链接：http://book.degjul.asia/blog/4004781.sHtMl
+
+原标题：分页逻辑错误数据漏查修复
+简介：端口占用访问失败排查方案，讲解端口占用排查命令，定位占用进程，释放端口，解决服务启动端口被占用报错。
+ | 原文链接：http://book.degjul.asia/blog/8401303.sHtMl
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：golang 模板函数自定义拓展，自定义 template 模板函数，在 html 模板调用自定义逻辑处理数据。
+ | 原文链接：http://book.degjul.asia/blog/1867237.sHtMl
+
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：简易日志收集集中管理方案，搭建轻量日志收集方案，把多服务日志汇总，集中检索查看日志信息。
+ | 原文链接：http://book.degjul.asia/blog/6583625.sHtMl
+
+原标题：效率笔记：gitlog高效查询历史提交技巧
+简介：golang e2e 端到端测试 go 接口，编写 e2e 测试，完整模拟用户请求，校验整套业务链路正确性。
+ | 原文链接：http://book.degjul.asia/blog/5160315.sHtMl
+
+原标题：开发记录：表单参数校验统一中间件实现
+简介：全局异常处理器接口返回统一，接入全局异常捕获，拦截业务全部异常，对外输出统一格式返回值。
+ | 原文链接：http://book.degjul.asia/blog/7482515.sHtMl
+
+原标题：golang 系统设计数据库查询优化完整流程
+简介：代码模块化组件化拆分思路，讲解代码拆分原则，将大业务拆分为独立模块组件，提升代码复用与维护能力。
+ | 原文链接：http://book.degjul.asia/blog/6381247.sHtMl
+
+原标题：实践：前后端分离项目登录状态保持完整方案
+简介：golang 跨域处理中间件编写，Gin 跨域中间件开发，处理预检 OPTIONS 请求，解决浏览器跨域报错。
+ | 原文链接：http://book.degjul.asia/blog/3924929.sHtMl
+
+?
